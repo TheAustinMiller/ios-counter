@@ -21,6 +21,13 @@ struct ContentView: View {
                 .background(Color.blue)
                 .foregroundColor(.white)
                 .cornerRadius(10)
+            Button("Click to decrease counter!") {
+                count -= 1
+            }
+                .padding()
+                .background(Color.red)
+                .foregroundColor(.white)
+                .cornerRadius(10)
         }
         .padding()
     }
